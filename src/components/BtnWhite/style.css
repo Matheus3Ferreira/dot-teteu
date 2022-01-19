@@ -1,0 +1,8 @@
+.button-white {
+    width: 22rem;
+    height: 7rem;
+    background-color: #FFF;
+    border: 1px solid #0E0AFF;
+    border-radius: 15px;
+    margin: 3rem;
+}

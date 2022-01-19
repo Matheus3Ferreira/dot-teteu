@@ -1,4 +1,5 @@
 import {  Container, Stack, Row, Col } from "react-bootstrap";
+import BtnWhite from "../../components/BtnWhite";
 import "../../global/style.css";
 import "./style.css";
 
@@ -18,7 +19,7 @@ export default function Home() {
                     <span className="text">
                         Click here and meet more about me, my objectives and who I am. 👇
                     </span>
-                    <button className="button-white text">About me</button>
+                    <BtnWhite url="about-me"/>
                 </Stack>
             </Col>
             <Col className="d-flex justify-content-center">
