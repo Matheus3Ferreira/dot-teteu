@@ -3,12 +3,17 @@
     font-weight: 500;
 }
 .header-text {
-    margin-right: 3rem;
+    margin-left: 3rem;
     color: var(--dark-blue) !important;
 }
 
 .navbar-container {
     margin-left: 4rem;
     margin-right: 4rem;
-    margin-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+    .navbar-container {
+        margin-top: 2rem;
+    }
 }

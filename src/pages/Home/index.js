@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container>
 
-        <Row >
+        <Row>
             <Col>
                 <Stack gap={3}> 
                     <span className="title-home title">
@@ -18,11 +18,11 @@ export default function Home() {
                     <span className="text">
                         Click here and meet more about me, my objectives and who I am. 👇
                     </span>
-                    <button className="btn">About me</button>
+                    <button className="button-white text">About me</button>
                 </Stack>
             </Col>
-            <Col className="image-container">
-                <img src="https://www.comprerural.com/wp-content/uploads/2019/11/DSC_0390-2-640x486.jpg"></img>
+            <Col className="d-flex justify-content-center">
+                <img className="picture" src="https://www.comprerural.com/wp-content/uploads/2019/11/DSC_0390-2-640x486.jpg"></img>
             </Col>
         </Row>
      
