@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Ubuntu:wght@300;500&display=swap');
+
+:root {
+    --dark-blue: #10045E;
+    --light-blue: #AD98FF;
+    --black: #000;
+}
+
+.title {
+    font-size: 3.6rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.text {
+    font-size: 2.4rem;
+    font-family: 'Roboto';
+}
+
+html {
+    font-size: 62.5% /*Now 1 rem = 10px*/
+  }

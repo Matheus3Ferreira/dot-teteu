@@ -1,0 +1,29 @@
+.text-first-column {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 35rem;
+    height: 42rem;
+    object-fit: cover;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title-home {
+    color: var(--black);
+    margin-top: 2.5rem;
+    margin-bottom: 6.5rem;
+}
+
+.text {
+    color: var(--black);
+}
+
+.btn {
+    
+}

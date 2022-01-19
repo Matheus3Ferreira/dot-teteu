@@ -1,0 +1,10 @@
+.elipse {
+    position: absolute;
+    right: -20rem;
+    top: -20rem;
+    height: 73.2rem;
+    width: 73.2rem;
+    background-color: #AD98FF;
+    border-radius: 50%;
+    z-index: -999;
+}
