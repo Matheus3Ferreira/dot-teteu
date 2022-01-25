@@ -5,8 +5,7 @@ import "./style.css";
 
 export default function Home() {
   return (
-    <Container>
-
+    <Container className="page-container">
         <Row>
             <Col>
                 <Stack gap={3}> 
@@ -23,10 +22,9 @@ export default function Home() {
                 </Stack>
             </Col>
             <Col className="d-flex justify-content-center">
-                <img className="picture" src="https://www.comprerural.com/wp-content/uploads/2019/11/DSC_0390-2-640x486.jpg"></img>
+                <img className="picture" alt="Matheus da Silva Ferreira" src="https://www.comprerural.com/wp-content/uploads/2019/11/DSC_0390-2-640x486.jpg"></img>
             </Col>
         </Row>
-     
     </Container>
   );
 }

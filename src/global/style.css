@@ -10,13 +10,23 @@
     font-size: 3.6rem;
     font-weight: 500;
     font-family: 'Roboto';
+    color: var(--black);
 }
 
 .text {
     font-size: 2.4rem;
     font-family: 'Roboto';
+    color: var(--black);
 }
 
 html {
     font-size: 62.5% /*Now 1 rem = 10px*/
 }
+
+.page-container {
+    margin-top: 2rem;
+}
+
+
+
+
