@@ -1,10 +1,12 @@
 .header-title {
-    color: var(--dark-blue) !important;
+    color: var(--very-dark-blue) !important;
     font-weight: 500;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 .header-text {
     margin-left: 3rem;
-    color: var(--dark-blue) !important;
+    color: var(--very-dark-blue) !important;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 .navbar-container {

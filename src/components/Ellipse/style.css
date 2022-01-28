@@ -4,7 +4,7 @@
     top: -20rem;
     height: 73.2rem;
     width: 73.2rem;
-    background-color: #AD98FF;
+    background-color: var(--dark-blue);
     border-radius: 50%;
     z-index: -2;
 }
