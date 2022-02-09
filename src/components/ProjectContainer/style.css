@@ -2,6 +2,7 @@
     width: 100vw;
     height: 40rem;
     overflow: auto;
+    margin-left: -2rem !important;
 }
 
 .project-light {

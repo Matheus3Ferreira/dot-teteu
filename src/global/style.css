@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;500&family=Ubuntu:wght@300;500&display=swap');
 
 :root {
-    --dark-blue: #4353FF;
     --very-dark-blue: #10045E;
+    --dark-blue: #4353FF;
     --light-blue: #919AFF;
     --black: #000;
 }
@@ -21,11 +21,13 @@
 }
 
 html {
-    font-size: 62.5% /*Now 1 rem = 10px*/
+    font-size: 62.5%; /*Now 1 rem = 10px*/
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .page-container {
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
 
