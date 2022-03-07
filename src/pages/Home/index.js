@@ -9,16 +9,16 @@ export default function Home() {
         <Row>
             <Col>
                 <Stack gap={3}> 
-                    <span className="title-home title">
+                    <h1 className="title-home">
                         Hello, I'm Matheus Ferreira,
                     <br />
                         Student and web developer.
-                    </span>
+                    </h1>
                     
-                    <span className="text">
+                    <p>
                         Click here and meet more about me, my objectives and who I am. 👇
-                    </span>
-                    <BtnWhite url="about-me"/>
+                    </p>
+                    <BtnWhite>About me</BtnWhite>
                 </Stack>
             </Col>
             <Col className="d-flex justify-content-center">

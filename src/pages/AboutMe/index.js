@@ -6,56 +6,56 @@ export default function AboutMe() {
     <Container className="page-container">
       <Row className="row-spacing title-row">
         <Col>
-          <h1 className="title">This is me, Matheus</h1>
+          <h1>This is me, Matheus</h1>
         </Col>
         <Col>
-          <h1 className="title">These are my objectives</h1>
+          <h1>These are my objectives</h1>
         </Col>
       </Row>
       <Row className="row-spacing">
         <Col>
-          <span className="text">
+          <p>
             Development of systems Student 
             at Universidade Paulista (UNIP)
-          </span>
+          </p>
         </Col>
         <Col>
-          <span className="text">Make my first personal site</span>
+          <p>Make my first personal site</p>
         </Col>
       </Row>
       <Row className="row-spacing">
         <Col>
-          <span className="text">
+          <p>
             I live in Santos, São Paulo, Brazil. (UNIP)
-          </span>
+          </p>
         </Col>
         <Col>
-          <span className="text">Give a travel to my grandmother</span>
+          <p>Give a travel to my grandmother</p>
         </Col>
       </Row>
       <Row className="row-spacing">
         <Col>
-          <span className="text">
+          <p>
             I like write code, and think about a
             logic solutions for problems.
-          </span>
+          </p>
         </Col>
         <Col>
-          <span className="text">Learn more than yesterday</span>
+          <p>Learn more than yesterday</p>
         </Col>
       </Row>
       <Row className="row-spacing">
         <Col>
-          <span className="text">
+          <p>
             Now I want to learn how to make
             
             great things with Javascript, and
             
             feel gratified with my creations.
-          </span>
+          </p>
         </Col>
         <Col>
-          <span className="text">Get my first job with development of systems</span>
+          <p>Get my first job with development of systems</p>
         </Col>
       </Row>
     </Container>
